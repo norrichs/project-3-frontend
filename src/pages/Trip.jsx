@@ -27,14 +27,14 @@ const Trip = (props) => {
 				</Link>
 			<h1>{trip.location.name}</h1>
 			<section id="trip-gallery">
-			<img src={trip.photos[0]} class="trip-pic"/>
-			<img src={trip.photos[1]} class="trip-pic"/>
-			<img src={trip.photos[2]} class="trip-pic"/>
-			<img src={trip.photos[3]} class="trip-pic"/>
-			<img src={trip.photos[4]} class="trip-pic"/>
-			<img src={trip.photos[5]} class="trip-pic"/>
-			<img src={trip.photos[6]} class="trip-pic"/>
-			<img src={trip.photos[7]} class="trip-pic"/>
+			<img src={trip.photos[0]} alt="" className="trip-pic"/>
+			<img src={trip.photos[1]} alt="" className="trip-pic"/>
+			<img src={trip.photos[2]} alt="" className="trip-pic"/>
+			<img src={trip.photos[3]} alt="" className="trip-pic"/>
+			<img src={trip.photos[4]} alt="" className="trip-pic"/>
+			<img src={trip.photos[5]} alt="" className="trip-pic"/>
+			<img src={trip.photos[6]} alt="" className="trip-pic"/>
+			<img src={trip.photos[7]} alt="" className="trip-pic"/>
 			</section>
 			<p>{`Activities include ${trip.activities[0]}, ${trip.activities[1]}, ${trip.activities[2]}, and ${trip.activities[3]}`}</p>
 			<h2>Agency</h2>
